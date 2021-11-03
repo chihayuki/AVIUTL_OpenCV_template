@@ -1,0 +1,12 @@
+
+--track0:R,0.00,1.00,1.00,0.01
+--track1:G,0.00,1.00,1.00,0.01
+--track2:B,0.00,1.00,1.00,0.01
+
+require("AVIUTL_OpenCV_template") 
+
+data, w,h = obj.getpixeldata()
+
+AVIUTL_OpenCV_template.dll.template_func(data,w,h,obj.track0,obj.track1,obj.track2)
+
+obj.putpixeldata()
