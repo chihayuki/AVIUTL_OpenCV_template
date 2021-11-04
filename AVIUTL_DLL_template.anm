@@ -9,4 +9,4 @@ data, w,h = obj.getpixeldata()
 
 AVIUTL_OpenCV_template.dll.template_func(data,w,h,obj.track0,obj.track1,obj.track2)
 
-obj.putpixeldata()
+obj.putpixeldata(data)
